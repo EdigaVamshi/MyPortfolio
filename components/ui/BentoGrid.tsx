@@ -90,9 +90,9 @@ export const BentoGridItem = ({
           <div className="flex gap-1 lg:gap-5 md:gap-4 w-fit absolute -top-6 -right-3 lg:right-2 md:right-4 md:top-3">
             <div className="flex flex-col gap-3 lg:gap-8">
               {['React.js','Next.js','TypeScript'].map((item)=>(
-                <div className="relative inline-flex w-24 h-11 overflow-hidden rounded-lg p-[1px] focus:outline-none md:w-[6.15rem] lg:w-[6.25rem]">
+                <div key={id} className="relative inline-flex w-24 h-11 overflow-hidden rounded-lg p-[1px] focus:outline-none md:w-[6.15rem] lg:w-[6.25rem]">
                   <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
-                  <span key={item} className="inline-flex w-24 h-10  cursor-pointer items-center justify-center rounded-lg bg-[#10132E] px-3 py-2 text-sm font-medium text-white backdrop-blur-3xl gap-2 lg:py-4 lg:px-3 lg:text-base">{item}</span>
+                  <span className="inline-flex w-24 h-10  cursor-pointer items-center justify-center rounded-lg bg-[#10132E] px-3 py-2 text-sm font-medium text-white backdrop-blur-3xl gap-2 lg:py-4 lg:px-3 lg:text-base">{item}</span>
               </div>
               ))}
               <span className="py-4 px-3 rounded-lg text-center bg-[#10132e]" />
@@ -100,9 +100,9 @@ export const BentoGridItem = ({
             <div className="flex flex-col gap-3 lg:gap-8">
             <span className="py-4 px-3 rounded-lg text-center bg-[#10132e]" />
               {['Express.js','AWS','MongoDB'].map((item)=>(
-                <div className="relative inline-flex w-24 h-11 overflow-hidden rounded-lg p-[1px] focus:outline-none md:w-24 lg:w-[6.25rem]">
+                <div key={id} className="relative inline-flex w-24 h-11 overflow-hidden rounded-lg p-[1px] focus:outline-none md:w-24 lg:w-[6.25rem]">
                   <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
-                  <span key={item} className="inline-flex w-24 h-10  cursor-pointer items-center justify-center rounded-lg bg-[#10132E] px-3 py-2 text-sm font-medium text-white backdrop-blur-3xl gap-2 lg:py-4 lg:px-3 lg:text-base">{item}</span>
+                  <span className="inline-flex w-24 h-10  cursor-pointer items-center justify-center rounded-lg bg-[#10132E] px-3 py-2 text-sm font-medium text-white backdrop-blur-3xl gap-2 lg:py-4 lg:px-3 lg:text-base">{item}</span>
                 </div>
               ))}
             </div>
