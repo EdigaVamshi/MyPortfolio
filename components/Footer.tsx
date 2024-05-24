@@ -10,7 +10,7 @@ const Footer = () => {
       <div className='flex flex-col items-center'>
         <h1 className='heading lg:max-w-[45vw]'>Ready to take your <span className='text-purple'>Digital presence</span> to next level?</h1>
         <p className='text-white-200 md:mt-8 my-5 text-center'>Reach out to me today and let&apos;s discuss how I can help you to achieve your goals.</p>
-        <a href="https://linkedin.com/in/ediga-vamshi-goud-554183230">
+        <a href="https://linkedin.com/in/edigavamshi">
           <MagicButton title='Let&apos;s get in touch' icon={<FaLocationArrow/>} position='right'/>
         </a>
       </div>

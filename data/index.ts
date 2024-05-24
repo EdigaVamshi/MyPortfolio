@@ -184,7 +184,7 @@ export const navItems = [
     {
       id: 2,
       img: "/link.svg",
-      link: "https://linkedin.com/in/ediga-vamshi-goud-554183230"
+      link: "https://linkedin.com/in/edigavamshi"
     },
     {
       id: 3,
